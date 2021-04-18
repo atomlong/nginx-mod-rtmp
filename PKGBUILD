@@ -10,7 +10,7 @@ _dirname="nginx-rtmp-module-$pkgver"
 _nginxver=1.22.0
 
 pkgdesc='Module for nginx that adds RTMP support'
-arch=('x86_64')
+arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
 depends=("nginx=$_nginxver" "libutil-linux")
 makedepends=("nginx-src")
 url='https://github.com/arut/nginx-rtmp-module'
